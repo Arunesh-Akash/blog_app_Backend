@@ -29,4 +29,13 @@ module.exports = class Constant {
         CONTENT: "content",
     }
 
+    static PARAM_MISSING="EMAIL AND POSTID MISSING "
+    static POSTID="postID"
+
+    static COMMENT_REQUEST={
+        NAME:"name",
+        POSTID:"postId",
+        COMMENT:"comment",
+    }
+
 }

@@ -7,8 +7,7 @@ const PostModel=new mongoose.Schema({
     },
     name:String,
     content:String,
-    like:Array(),
-    comments:Array(),
+    image:String,
     createdAt:{
         type:Date,
         default:Date.now()

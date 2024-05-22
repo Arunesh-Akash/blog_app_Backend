@@ -12,7 +12,9 @@ app.use(cors());
 app.use(express.json());
 app.use('/sign',require('./routes/sign'));
 app.use('/login',require('./routes/login'));
-app.use('/dashboard',require('./routes/posts'));
+app.use('/blog',require('./routes/posts'));
+app.use('/like',require('./routes/like'));
+app.use('/comment',require('./routes/comment'));
 
 
 
